@@ -1,0 +1,135 @@
+/*
+    Document   : integralmotoring-foundation/public/css/integral．scss
+    Created on : 2014-06-25 05:58 PM
+    Author     : scopevale
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+
+header, footer {
+    /* SVG fallback(Opera 11.10-, IE9) */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDEwNSwxMDUsMjU1LDEpOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYmEoMTk2LDE4OCwyNDcsMSk7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, rgba(105,105,255,1), rgba(196,188,247,1));
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, rgba(105,105,255,1), rgba(196,188,247,1));
+
+    /* Chrome 7+ & Safari 5.03+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(105,105,255,1)), color-stop(1, rgba(196,188,247,1)));
+    background: -webkit-gradient(linear, 50% 6%, 50% 100%, from(#6969FF), to(#C4BCF7), color-stop(.5,#7986F7));
+
+
+    /* IE5.5 - IE7 */
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF6969FF,EndColorStr=#FFC4BCF7);
+
+    /* IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF6969FF,EndColorStr=#FFC4BCF7)"
+}
+
+header {
+    position: relative;
+    padding: 0px 12px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+footer {
+   -webkit-border-top-right-radius: 15px;
+   -webkit-border-top-left-radius: 15px;
+   -moz-border-radius-topright: 15px;
+   -moz-border-radius-topleft: 15px;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+
+
+
+#stdHeader h1 {
+   font-size: 410%;
+   display: inline;
+/*   color: #adadad; */
+   margin-left: 20px;
+}
+
+#stdHeader h3 {
+    font-size: 130%;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+#stdHeader h4 {
+    font-size: 65%;
+    display: inline-block;
+    margin-left: 390px;
+}
+
+#stdHeader img {
+    display: inline;
+    margin: -15px 0 0 10px;
+}
+
+#stdFooter h4 {
+    display: inline-block;
+}
+
+
+
+/* sticky footer */
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {
+    overflow:auto;
+    padding-bottom: 50px;  /* must be same height as the footer */
+}
+
+footer {position: relative;
+	 margin-top: -50px; /* negative value of footer height */
+	 height: 50px;
+	 clear:both;
+} 
+
+/*Opera Fix*/
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;
+}
+/* end sticky footer */
+
+
+
+/* content portion of page */
+#main div.grid_8 {
+    padding: 12px 4px;
+    
+/*    border: 1px solid red; */
+}
+
+#main div.grid_8 h1 {
+    margin-top: 12px;
+}
+
+#main div.omega {
+    text-align: center;
+}
+
+#flickr-img {
+    margin: 20px auto;
+}

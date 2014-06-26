@@ -1,0 +1,16 @@
+{
+  "globals": {
+    "title": "Ingegral Motoring - Driving School in East London",
+    "description": "Independent Driving School based in East London",
+		"keywords": "driving, lessons, learn to drive, instructor",
+    "name" : "Alex White",
+    "email": "xjwhite@gmail.com",
+    "uri": "http://integralmotoring.com/",
+    "author": "Gary Smith",
+    "author_email": "scopevale@gmail.com",
+		"analytics_acc": "UA-17593604-6",
+		"analytics_uri": "http://integralmotoring.com",
+		"production": false,
+		"locked": false
+  }
+}

@@ -1,0 +1,194 @@
+/*
+    Document   : integralmotoring-foundation/public/css/integral．scss
+    Created on : 2014-06-25 06:00 PM
+    Author     : scopevale
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+$siteBgCol: #111111;
+$siteCol: #ffffff;
+$defaultCol: #eff1e6;
+
+root {
+    display: block;
+}
+
+body {
+	background-color: #fff;
+}
+
+/*
+#panels_outer {
+    height: 400px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+
+#panels_inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+}
+*/
+
+#main {
+	width: 100%;
+	overflow: none;
+	padding-bottom: 50px;  /* must be same height as the footer */
+}
+
+.logo {
+	margin-top: 1%;
+	img {
+		margin-left: 25%;
+	}
+	p {
+		margin-left: 15%;
+		margin-top: 5%;
+		margin-bottom: -5%;
+		font-size: 130%;
+	}
+}
+
+#wrap {
+  /*  z-index: 90; */
+}
+
+#slider_container {
+}
+
+div.slider-nav span.right, div.slider-nav span.left {
+    margin-top: 10px !important;
+}
+
+ul.orbit-panel li {
+	padding: 5px;
+}
+
+.orbit-bullets {
+	margin-bottom: 10px !important;
+}
+
+/*
+#slider img {
+    margin-left: auto;
+    margin-right: auto;
+}    
+*/
+
+#panels {
+	margin-top: 0;
+	height: 400px;
+}
+
+#panels div {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	border-radius: 15px;
+	height: 100%;
+	position: relative;
+/*     padding: 10px 0; */
+}
+
+#panels div h1 {
+/*     margin-left: 70px;
+    margin-top: 0;
+    font-size: 3.5em; */
+}
+
+#panels div p {
+/*     padding: 4px; */
+}
+
+#panel_1 {
+	text-align: center;
+	.panel {
+		p {
+			margin-top: 5%;
+			text-align: left;			
+		}
+		border: 10px solid rgba(255, 0, 0, 0.7);
+  	background-color: $defaultCol;
+	}
+}
+
+#panel_2 { 
+	text-align: center;
+	.panel {
+		border: 10px solid rgba(255, 191, 0,0.6);
+  	background-color: $defaultCol;
+		iframe {
+			margin-top: 5%;
+		}
+	}
+}
+
+#panel_3 {
+	text-align: center;
+	.panel {
+		ul {
+			margin-top: 5%;
+			text-align: left;			
+		}
+		border: 10px solid rgba(0, 232, 8,0.6);
+/* 		background-color: rgba(139,232,88,0.6); */
+		background-color: $defaultCol;
+	}
+}
+
+
+footer {
+	img, h5 {
+		display: inline;
+		
+	}
+}
+
+#footerbar {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+#disclaimer {
+    padding-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+}
+#disclaimer h5 {
+    color: #333;	
+		font-size: 90%;
+}
+
+#scopevale {
+    position: absolute;
+    right: 0px;
+}
+
+#disclaimer-modal {
+    display: none;
+		background-color: #777777;
+}
+
+#scopevale a, #scopevale a:visited, #scopevale a:hover {
+	text-decoration: none;
+	color: #333;
+	font-size: 80%;
+}
+
+footer {
+    position: relative;
+    margin-top: -50px; /* negative value of footer height */
+    height: 50px !important;
+    clear:both;
+}
+

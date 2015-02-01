@@ -82,7 +82,8 @@ ul.orbit-panel li {
 
 #panels {
 	margin-top: 0;
-	height: 400px;
+	margin-bottom: 20px;
+	height: auto;
 }
 
 #panels div {
@@ -106,21 +107,22 @@ ul.orbit-panel li {
 }
 
 #panel_1 {
-	text-align: center;
+	height: 100px;
 	.panel {
 		p {
-			margin-top: 5%;
+			margin-top: 1%;
 			text-align: left;			
 		}
-		border: 10px solid rgba(255, 0, 0, 0.7);
+		border: 10px solid rgba(100, 100, 100, 0.7);
   	background-color: $defaultCol;
 	}
 }
 
 #panel_2 { 
+	height: 400px;
 	text-align: center;
 	.panel {
-		border: 10px solid rgba(255, 191, 0,0.6);
+		border: 10px solid rgba(100, 100, 100, 0.7);
   	background-color: $defaultCol;
 		iframe {
 			margin-top: 5%;
@@ -129,14 +131,13 @@ ul.orbit-panel li {
 }
 
 #panel_3 {
-	text-align: center;
+	height: 400px;
 	.panel {
-		ul {
+/* 		ul {
 			margin-top: 5%;
 			text-align: left;			
-		}
-		border: 10px solid rgba(0, 232, 8,0.6);
-/* 		background-color: rgba(139,232,88,0.6); */
+		} */
+		border: 10px solid rgba(100, 100, 100, 0.7);
 		background-color: $defaultCol;
 	}
 }

@@ -1,7 +1,7 @@
-mhi-codio-heroku
+integral-codio-heroku
 ================
 
-michelleharris.info site - developed on codio - deployed to heroku
+integralmotoring.co.uk site - developed on codio - deployed to heroku
 
 
 To deploy to Heroku
@@ -9,4 +9,6 @@ To deploy to Heroku
 
 heroku config:set BUILDPACK_URL=https://github.com/zeke/harp-buildpack.git
 
-heroku config:set HARP_ROOT=./public -a scopevale-mhinfo
+heroku config:set HARP_ROOT=./public -a scopevale-integral
+
+git push heroku master
